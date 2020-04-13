@@ -11,7 +11,7 @@ const operationLogs = (state = [], action) => {
     case DELETE_ALL_OPERATION_LOG:
       return [];
     default:
-      state;
+      return state;
   }
 };
 
