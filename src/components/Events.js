@@ -17,7 +17,6 @@ const Events = () => {
           </tr>
         </thead>
         <tbody>
-          {/* stateが配列だから一個ずつ取り出している。それはeventが受け取っている */}
           {state.events.map((event, index) => {
             return <Event key={index} event={event} />;
           })}
